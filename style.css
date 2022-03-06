@@ -1,0 +1,358 @@
+/* ============================
+          public style
+   ============================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 10px;
+}
+
+/* ============================
+          header style
+   ============================
+*/
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-title {
+    color: #5a5a5a;
+    font-size: 2em;
+    padding-left: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+header nav {
+    padding-right: 50px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-left: 40px;
+    color: rgb(0, 0, 255);
+}
+
+header a:hover {
+    color: rgb(0, 0, 150)
+}
+
+/* ============================
+          main style
+   ============================
+*/
+
+section {
+    padding: 50px 200px;
+}
+
+.services {
+    width: 100%;
+    height: 100vh;
+    padding: 150px 100px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: url(images/background.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.service-title {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.service-title .service-text {
+    font-size: 3em;
+    color: blueviolet;
+    font-weight: 800;
+    display: inline-block;
+    margin: 15px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.service-info {
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.service-btn {
+    background: rgb(0, 0, 255);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.service-btn:hover {
+    transform: scale(1.1);
+    background: rgb(0, 0, 150);
+}
+
+.service-social {
+    margin-top: 15px;
+}
+
+.service-social a {
+    padding-right: 18px;
+    color: #fff;
+    font-size: 2em;
+}
+
+/* ============================
+          service style
+   ============================
+*/
+
+.title {
+    text-align: center;
+    font-size: 4em;
+    color:rgb(0, 0, 255);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.service-content {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 0 50px;
+}
+
+.card {
+    width: 25em;
+    box-shadow: 0 15px 20px rgba(1 1 1 / 25%);
+    padding: 15px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    font-size: 10em;
+}
+
+.serv-text {
+    color:rgb(0, 0, 255);
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.serv-desc {
+    color: #888;
+}
+
+/* ============================
+          work style
+   ============================
+*/
+
+.work {
+    background: #111;
+}
+
+.work .card {
+    width: 30em;
+    padding: 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    min-height: 14em;
+}
+
+.work .card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card img:hover {
+    opacity: 0.6;
+}
+
+
+.work-info {
+    padding: 10px 0;
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+}
+
+.work-desc {
+    font-size: 1em;
+    margin-left: -25px;
+}
+
+.work-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.work-text .work-span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.work-text a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* ============================
+          contact style
+   ============================
+*/
+
+.contact .icon i {
+    font-size: 0.6em;
+}
+
+.contact p {
+    font-size: 1.2em;
+}
+
+/* ============================
+          footer style
+   ============================
+*/
+
+.footer {
+   margin-top: 100px;
+   width: 100%;
+   height: 50px;
+   background: #333;
+   color: #fff;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer p span {
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-weight: 500;
+}
+
+.footer .social-media a {
+   color: #fff;
+   margin-right: 10px;
+   font-size: 1.5em;
+}
+
+
+
+@media (max-width: 1060px) {
+    header .header-title {
+        font-size: 10px;
+        padding-left: 50px;
+    }
+
+    header nav {
+        display: flex;
+        padding-right: 140px;
+    }
+
+    header a {
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    main .service {
+         width: 100%;
+         background-attachment: cover;
+    }
+
+    .services .service-text {
+        font-size: 20px;
+    }
+
+    .service-info {
+        display: block;
+        font-size: 8px;
+    }
+
+    .service-btn {
+        width: 150px; 
+        height: 30px;
+        font-size: 10px;
+        line-height: 10px;
+        padding-left: 40px;
+    }
+
+    .service-social {
+        display: flex;
+        padding-left: 5px;
+    }
+
+    .service {
+        width: 500px;
+    }
+
+    .service-content {
+        margin: 10px -25px;
+       align-items: center;
+       flex-direction: column;  
+    }
+
+    .card {
+        margin-bottom: 50px;
+        margin-left: -120px;
+    }
+
+    .title {
+        margin-left: -70px
+    }
+
+    .footer {
+        height: auto;        
+    }
+
+    .footer p {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+}
+
